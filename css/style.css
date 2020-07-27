@@ -1,0 +1,184 @@
+/** Universal **/
+@font-face {
+    font-family: ave;
+    src: url(/fonts/ave.otf);
+}
+
+@font-face {
+    font-family: ave-book;
+    src: url(/fonts/ave-book.ttf);
+}
+@font-face {
+    font-family: ave-light;
+    src: url(/fonts/ave-light.otf);
+}
+@font-face {
+    font-family: ave-havy;
+    src: url(/fonts/ave-havy.ttf);
+}
+@font-face {
+    font-family: ave-italic;
+    src: url(/fonts/ave-italic.otf);
+}
+@font-face {
+    font-family: ave-med;
+    src: url(/fonts/ave-med.ttf);
+}
+
+body {
+    background: #000;
+    font-size: 6px;
+    color: #404041;
+}
+
+.main{
+
+    position: relative;
+}
+.container{
+    padding: 0 15px ;
+}
+.height-wrapper{
+   height: 150px;
+   width: 522px; 
+   background: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 50%);
+}
+
+
+p,
+span {
+    font-size: 8px;
+}
+
+
+/** Header **/
+
+header table tr .header-left {
+    width: 27%;
+}
+
+header table tr .header-middle {
+    width: 40%;
+}
+
+header table tr .header-right {
+    width: 30%;
+}
+
+header table .header-left img {
+    width: 115px;
+}
+
+header .header-middle .heading-area h1 {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #70B555;
+    margin-top: 6px;
+    font-family: ave;
+}
+
+header .header-middle .heading-area h2 {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: ave-light;
+}
+
+.border{
+    display: flex;
+    margin-bottom: 5.5px;
+}
+.border-sm{
+    width: 124px;
+}
+.border-bg{
+    width: 100%;
+}
+.w-50{
+    Width: 50%;
+}
+.w-25{
+    width: 29%;
+}
+.w-75{
+    width: 71%;
+}
+.sub-green{
+    height: 1.2px;
+    background: #70B555;
+}
+.sub-ash{
+    height: 1.2px;
+    background: #58595B;
+}
+header .icon-img {
+    width: 7px;
+    margin-right: 3px;
+}
+
+
+ul.info{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: ave;
+}
+ul.info li{
+    padding-bottom: 3px;
+}
+header table .header-right p.title {
+    width: 60px;
+    font-size: 7px;
+    line-height: 8px;
+    margin: auto 0;
+    font-weight: 600;
+}
+
+header table .header-right img {
+    width: 80px;
+}
+header table .header-right .title-area p{
+    display: block;
+    font-size: 7.5px;
+    font-family: ave;
+}
+header table .header-right .right-info {
+    display: block;
+    font-size: 7px;
+    font-family: ave;
+    margin-top: 12px;
+    line-height: 10px;
+}
+header table .header-right{
+    padding-top: 7px;
+    vertical-align: baseline;
+}
+
+/* Footer */
+.footer {
+    margin-left: 4px;
+}
+.footer .container h2 {
+    font-size: 7.5px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: -2px;
+    font-family: ave;
+}
+
+.footer .container .disclaimer {
+    font-size: 6.31px;
+    line-height: 8px;
+    color: #58595a;
+    font-weight: bolder;
+    font-weight: 400;
+    font-family: ave-italic;
+}
+
+
+
+
